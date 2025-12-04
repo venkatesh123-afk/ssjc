@@ -30,10 +30,10 @@ class ssjcApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       initialRoute: '/splash',
       getPages: [
-        // ⭐ Correct Staff List Route
+        //  Correct Staff List Route
         GetPage(name: '/staff', page: () => const StaffListPage()),
 
-        // ⭐ Correct Staff Attendance Route (NO SPACES)
+        // Correct Staff Attendance Route (NO SPACES)
         GetPage(
           name: '/staffAttendance',
           page: () => const StaffAttendancePage(),
@@ -70,3 +70,4 @@ class ssjcApp extends StatelessWidget {
     );
   }
 }
+
